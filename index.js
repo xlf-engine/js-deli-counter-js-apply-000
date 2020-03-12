@@ -5,11 +5,10 @@ function takeANumber(katzDeli, name) { //katzDeli is the queue#, name is the nam
    return `Welcome, ${name}. You are number ${katzDeli.length} in line.`; //the queue number is kept track by katzDeli.length
 }
 
+var nextInLine = 1
 
 function takeANumber2(){
-
-  var nextInLine = 1
-  console.log(`Welcome your ticket number is ${nextInLine++}`) 
+  console.log(`Welcome your ticket number is ${nextInLine++}`)
 }
 
 
