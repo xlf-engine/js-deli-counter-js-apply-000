@@ -9,7 +9,7 @@ function takeANumber(katzDeli, name) { //katzDeli is the queue#, name is the nam
 function takeANumber2(){
 
   var nextInLine = 1
-  return `Welcome your ticket number is ${nextInLine++}`
+  console.log(`Welcome your ticket number is ${nextInLine++}`) 
 }
 
 
