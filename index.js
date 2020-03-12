@@ -5,6 +5,19 @@ function takeANumber(katzDeli, name) { //katzDeli is the queue#, name is the nam
    return `Welcome, ${name}. You are number ${katzDeli.length} in line.`; //the queue number is kept track by katzDeli.length
 }
 
+
+function takeANumber2(){
+
+  var nextInLine = 1
+  return `Welcome your ticket number is ${nextInLine++}`
+}
+
+
+takeANumber2();
+takeANumber2();
+takeANumber2();
+
+
 function nowServing(katzDeli) {   //name in katzDeli array is next in line
   if (katzDeli.length > 0) {      //if the queue in katzDeli is more the 0 people (more than 1) do this
     const nowServing = katzDeli[0]; //nowServing found in index-test.js, variable for interpolation string--directs to first in queue in katzDeli
